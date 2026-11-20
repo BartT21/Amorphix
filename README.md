@@ -1,12 +1,12 @@
-<img src="assets/amorphix-emblem.png" width="120" align="right" alt="Amorphix">
-
-# Amorphix
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BartT21/Amorphix/media/banner.png" alt="Amorphix" width="760">
+</p>
 
 Run MorphOS and AmigaOS 4 on your PC. Amorphix is a VirtualBox-style manager around an
 optimized PowerPC emulator: create a machine, point it at your own install media, and reach
 the desktop in minutes.
 
-![MorphOS and AmigaOS 4 side by side](assets/demo-sidebyside.gif)
+![MorphOS and AmigaOS 4 side by side](https://raw.githubusercontent.com/BartT21/Amorphix/media/demo-sidebyside.gif)
 
 ## Benchmarks
 
@@ -56,27 +56,27 @@ A Linux build is on the same releases page.
 
 Hardware 3D:
 
-![Hardware 3D](assets/demo-3d.gif)
+![Hardware 3D](https://raw.githubusercontent.com/BartT21/Amorphix/media/demo-3d.gif)
 
 The VM manager:
 
-![The VM manager](assets/demo-manager.gif)
+![The VM manager](https://raw.githubusercontent.com/BartT21/Amorphix/media/demo-manager.gif)
 
 AmigaOS 4:
 
-![AmigaOS 4](assets/demo-os4.gif)
+![AmigaOS 4](https://raw.githubusercontent.com/BartT21/Amorphix/media/demo-os4.gif)
 
 Restore points:
 
-![Restore points](assets/demo-restore.gif)
+![Restore points](https://raw.githubusercontent.com/BartT21/Amorphix/media/demo-restore.gif)
 
 Faster windows and disk:
 
-![Faster windows and disk](assets/demo-speed.gif)
+![Faster windows and disk](https://raw.githubusercontent.com/BartT21/Amorphix/media/demo-speed.gif)
 
 Shared folder:
 
-![Shared folder](assets/demo-shared.gif)
+![Shared folder](https://raw.githubusercontent.com/BartT21/Amorphix/media/demo-shared.gif)
 
 ## You bring the OS
 
