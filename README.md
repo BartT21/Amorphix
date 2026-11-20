@@ -1,3 +1,5 @@
+<img src="assets/amorphix-emblem.png" width="120" align="right" alt="Amorphix">
+
 # Amorphix
 
 Run MorphOS and AmigaOS 4 on your PC. Amorphix is a VirtualBox-style manager around an
