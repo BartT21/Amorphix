@@ -55,10 +55,6 @@ Shared folder:
 
 ![Shared folder](assets/demo-shared.gif)
 
-Claude Code on the guest:
-
-![Claude Code on the guest](assets/demo-claudecode.gif)
-
 ## You bring the OS
 
 You must supply your own licensed copy of MorphOS and/or AmigaOS 4. Amorphix ships no
