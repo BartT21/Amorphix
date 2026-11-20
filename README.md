@@ -6,6 +6,27 @@ the desktop in minutes.
 
 ![MorphOS and AmigaOS 4 side by side](assets/demo-sidebyside.gif)
 
+## Benchmarks
+
+Measured on AmigaOS 4, before and after Amorphix's accelerated defaults (the Amorphix GPU
+for 3D, SFS for the disk).
+
+3D, frames per second (higher is better):
+
+| Test | Before | Now | Gain |
+|---|---|---|---|
+| Cube | 276 | 417 | 1.5× |
+| Cube, 1920x1080 | 59 | 108 | 1.8× |
+| Gears | 31 | 91 | 2.9× |
+
+Windows and disk:
+
+| Test | Before | Now | Gain |
+|---|---|---|---|
+| Window resize, per second | 19-25 | 29-32 | |
+| Scrolling, lines per second | 600-900 | 1235-1315 | |
+| Copy 1527 small files | 24.8 s (FFS) | 3.9 s (SFS) | 6× |
+
 ## Download
 
 [Download Amorphix 1.0 for Windows](../../releases/latest)
