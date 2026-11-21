@@ -92,7 +92,9 @@ AmigaOS is a trademark of Amiga Corporation. MorphOS is a trademark of the Morph
 
 ## License
 
-Amorphix's manager, installer and Guest Tools are proprietary. Amorphix runs QEMU, the
-open-source machine emulator, as a separate program; that QEMU build is under the GNU
-General Public License v2.0. The complete corresponding source for the GPL components
-(QEMU and our patches) is available on request: open an issue on this repository.
+Amorphix's manager, installer and Guest Tools are proprietary (see the licence in the app).
+
+The open-source parts keep their own licences: QEMU with our changes (GPL v2), FFmpeg
+(LGPL), BBoot, OpenBIOS and the GPL part of the AmigaOS 4 Warp3D driver. Their source is
+included in the installer's `source` folder; for Linux it is the separate source tarball on
+the [releases page](https://github.com/BartT21/Amorphix/releases).
