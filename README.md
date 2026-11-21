@@ -89,8 +89,10 @@ Amorphix stands on QEMU, the open-source machine emulator.
 
 ## License
 
-Amorphix is free software under the GNU General Public License v2.0. The complete source
-accompanies each release.
+Amorphix's manager, installer and Guest Tools are proprietary. Amorphix runs QEMU, the
+open-source machine emulator, as a separate program; that QEMU build is under the GNU
+General Public License v2.0. The complete corresponding source for the GPL components
+(QEMU and our patches) is available on request: open an issue on this repository.
 
 ---
 
