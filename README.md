@@ -86,14 +86,13 @@ operating system files. See [getting a license](https://www.morphos-team.net/).
 
 Amorphix stands on QEMU, the open-source machine emulator.
 
+## Trademarks
+
+AmigaOS is a trademark of Amiga Corporation. MorphOS is a trademark of the MorphOS Development Team. Amorphix is an independent project and is not affiliated with or endorsed by them. You need your own licensed copy of each OS.
+
 ## License
 
 Amorphix's manager, installer and Guest Tools are proprietary. Amorphix runs QEMU, the
 open-source machine emulator, as a separate program; that QEMU build is under the GNU
 General Public License v2.0. The complete corresponding source for the GPL components
 (QEMU and our patches) is available on request: open an issue on this repository.
-
----
-
-Amorphix is an independent project. MorphOS is a trademark of the MorphOS Development Team.
-AmigaOS is a trademark of Hyperion Entertainment. Amorphix is not affiliated with either.
