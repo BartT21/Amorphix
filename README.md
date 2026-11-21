@@ -3,8 +3,7 @@
 </p>
 
 Run MorphOS and AmigaOS 4 on your PC. Amorphix is a VirtualBox-style manager around an
-optimized PowerPC emulator: create a machine, point it at your own install media, and reach
-the desktop in minutes.
+optimized PowerPC emulator.
 
 ![MorphOS and AmigaOS 4 side by side](https://raw.githubusercontent.com/BartT21/Amorphix/media/demo-sidebyside.gif)
 
