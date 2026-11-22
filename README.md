@@ -28,15 +28,30 @@ Windows and disk:
 | Scrolling, lines per second | 600-900 | 1235-1315 | |
 | Copy 1527 small files | 24.8 s (FFS) | 3.9 s (SFS) | 6× |
 
+AmigaOS 4 MiniGL through the new Amorphix GPU 3D option (experimental, 1.0.3), Gears frames per second against the
+normal virgl path:
+
+| Window | virgl | Amorphix GPU 3D | Gain |
+|---|---|---|---|
+| Default | 84 | 355 | 4.2× |
+| 1024x768 | 75 | 246 | 3.3× |
+| 1920x1080 | 55 | 130 | 2.4× |
+
+MorphOS 3D, Gears screen blanker: 104 → 154 fps (1.48×), with about 31% less PC CPU.
+
 ## Download
 
-[Download Amorphix 1.0.2 for Windows](../../releases/latest)
+[Download Amorphix 1.0.3 for Windows](../../releases/latest)
 
 A Linux build is on the same releases page.
 
-**New in 1.0.2:** shared-folder fixes (files with non-Latin names were moved to the Recycle Bin; please update),
-keyboard layout choice when you create a machine, and the MorphOS `SYS:Shared` window now shows all files.
-[All changes](../../releases/tag/v1.0.2)
+**New in 1.0.3:**
+- AmigaOS 4: experimental Amorphix GPU 3D option. MiniGL and GLUT programs draw on your PC's graphics card, up to 4.2× faster than before. Off by default; tick it in a machine's Settings.
+- MorphOS: 3D waits less on the PC (Gears 1.48× faster, about 31% less CPU).
+- Fixed: the AmigaOS 4 display could stay black after a full-screen program or screen-mode change.
+- Fixed: a running AmigaOS 4 GL program no longer slows down or blocks other programs.
+
+[All changes](../../releases/tag/v1.0.3) · [1.0.2 changes](../../releases/tag/v1.0.2)
 
 ## Quick start
 
@@ -52,7 +67,7 @@ keyboard layout choice when you create a machine, and the MorphOS `SYS:Shared` w
 - AmigaOS 4 auto-install: hand it your CD and it sets the system up, Guest Tools and bridge included.
 - Guest Tools: a shared folder between your PC and the guest, plus clipboard and clock sync.
 - Media: a second and third hard disk, CD images, and a Windows folder as a USB stick.
-- 3D acceleration: OpenGL and MiniGL inside the guest.
+- 3D acceleration: OpenGL and MiniGL inside the guest, drawn on your PC's graphics card.
 - Dark mode, port forwarding, full screen, and a clean installer.
 
 ## Demos
