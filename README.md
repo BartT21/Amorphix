@@ -30,9 +30,13 @@ Windows and disk:
 
 ## Download
 
-[Download Amorphix 1.0 for Windows](../../releases/latest)
+[Download Amorphix 1.0.2 for Windows](../../releases/latest)
 
 A Linux build is on the same releases page.
+
+**New in 1.0.2:** shared-folder fixes (files with non-Latin names were moved to the Recycle Bin; please update),
+keyboard layout choice when you create a machine, and the MorphOS `SYS:Shared` window now shows all files.
+[All changes](../../releases/tag/v1.0.2)
 
 ## Quick start
 
