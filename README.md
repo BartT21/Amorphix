@@ -41,17 +41,18 @@ MorphOS 3D, Gears screen blanker: 104 → 154 fps (1.48×), with about 31% less 
 
 ## Download
 
-[Download Amorphix 1.0.3 for Windows](../../releases/latest)
+[Download Amorphix 1.0.4 for Windows](../../releases/latest)
 
 A Linux build is on the same releases page.
 
-**New in 1.0.3:**
-- AmigaOS 4: experimental Amorphix GPU 3D option. MiniGL and GLUT programs draw on your PC's graphics card, up to 4.2× faster than before. Off by default; tick it in a machine's Settings.
-- MorphOS: 3D waits less on the PC (Gears 1.48× faster, about 31% less CPU).
-- Fixed: the AmigaOS 4 display could stay black after a full-screen program or screen-mode change.
-- Fixed: a running AmigaOS 4 GL program no longer slows down or blocks other programs.
+**New in 1.0.4:**
+- AmigaOS 4: MiniGL and OpenGL ES 2 games draw straight on the PC GPU, on by default. Smooth, and the refresh rate follows the monitor (60, 144 or 240 Hz).
+- Game fixes: BlockOut II, RGBlocks, SuperTuxKart and M.A.C.E. now look right.
+- Amorphix always opens the VM manager; a VM's own desktop shortcut still starts it directly.
+- Fixed: the shared folder could stay empty for minutes after booting.
+- 40% smaller download.
 
-[All changes](../../releases/tag/v1.0.3) · [1.0.2 changes](../../releases/tag/v1.0.2)
+[All changes](../../releases/tag/v1.0.4) · [1.0.3 changes](../../releases/tag/v1.0.3)
 
 ## Quick start
 
